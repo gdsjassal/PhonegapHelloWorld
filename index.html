@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <!--
     Copyright (c) 2012-2016 Adobe Systems Incorporated. All rights reserved.
 
@@ -56,7 +56,7 @@
                 <span class="left" id="npAction">Paused...</span>
                 <span class="right" id="npTitle"></span>
             </div>
-            <div id="audiowrap">
+            <!--<div id="audiowrap">
                 <div id="audio0">
                     <audio preload id="audio1" controls="controls">Your browser does not support HTML5 Audio!</audio>
                 </div>
@@ -64,7 +64,10 @@
                     <a id="btnPrev">&laquo;</a>
                     <a id="btnNext">&raquo;</a>
                 </div>
-            </div>
+            </div>-->
+			<p>
+				<button onclick="playme()">Play Music</button>
+			</p>
             <div id="plwrap">
                 <ul id="plList">
                     <li>
@@ -331,6 +334,7 @@
     <script type="text/javascript" src="js/index.js"></script>
     <script type="text/javascript">
         app.initialize();
+        app.playAudio("https://dl.jatt.link/hd.jatt.link/15c435395acc88f5ece743aa1a5641e6/jyszv/Guerrilla War-(Mr-Jatt.com).mp3")
     </script>
 </body>
 
